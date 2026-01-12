@@ -4,7 +4,6 @@ body {
   padding: 2rem;
   background: #f6f8fa;
 }
-<<<<<<< HEAD
 
 header {
   background: #2c3e50;
@@ -28,24 +27,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-[data-theme="dark"] {
-  background: #1a1a1a;
-  color: #ffffff;
-}
-
-[data-theme="dark"] header {
-  background: #34495e;
-}
-
-button {
-  background: #3498db;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 4px;
-  cursor: pointer;
-}
-=======
 /* Improve dark theme contrast */
 [data-theme="dark"] {
   background: #121212;
@@ -60,4 +41,16 @@ button {
   color: #4fc3f7;  /* Brighter links */
 }
 
->>>>>>> main
+button {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.slogan {
+  color: #e91e63;  /* Better pink */
+}
